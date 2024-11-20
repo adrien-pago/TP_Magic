@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/decksListFragment">
+
+    <fragment
+        android:id="@+id/decksListFragment"
+        android:name="edu.esia.tpmagicadrien.view.fragments.deckslist.DecksListFragment"
+        android:label="fragment_decks_list"
+        tools:layout="@layout/fragment_decks_list">
+        <action
+            android:id="@+id/action_decksListFragment_to_deckEditFragment"
+            app:destination="@id/deckEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deckEditFragment"
+        android:name="edu.esia.tpmagicadrien.view.fragments.deckedit.DeckEditFragment"
+        android:label="fragment_deck_edit"
+        tools:layout="@layout/fragment_deck_edit">
+        <action
+            android:id="@+id/action_deckEditFragment_to_cardEditFragment"
+            app:destination="@id/cardEditFragment" />
+        <action
+            android:id="@+id/action_deckEditFragment_to_decksListFragment"
+            app:destination="@id/decksListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardEditFragment"
+        android:name="edu.esia.tpmagicadrien.view.fragments.CardEditFragment"
+        android:label="fragment_card_edit"
+        tools:layout="@layout/fragment_card_edit">
+        <action
+            android:id="@+id/action_cardEditFragment_to_deckEditFragment"
+            app:destination="@id/deckEditFragment" />
+    </fragment>
+</navigation>

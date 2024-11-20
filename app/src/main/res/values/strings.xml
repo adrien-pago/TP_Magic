@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Magic deck manager</string>
+    <string name="reserve">Reserve</string>
+    <string name="black_label">noir</string>
+    <string name="blue_label">bleu</string>
+    <string name="colorless_label">incolore</string>
+    <string name="green_label">vert</string>
+    <string name="red_label">rouge</string>
+    <string name="white_label">blanc</string>
+    <string name="cardtype_land">terrain</string>
+    <string name="cardtype_creature">créature</string>
+    <string name="cardtype_artefact">artefact</string>
+    <string name="cardtype_interruption">interruption</string>
+    <string name="cardtype_ritual">rituel</string>
+    <string name="creature_carac_fly">vol</string>
+    <string name="creature_carac_wall">mur</string>
+    <string name="creature_carac_trampling">piétinement</string>
+    <string name="creature_carac_initiative">initiative</string>
+    <string name="effect_target_any">n\'importe quelle carte</string>
+    <string name="effect_target_opponent">adversaire</string>
+    <string name="effect_target_any_or_opponent">n\'importe quelle carte ou l\'adversaire</string>
+    <string name="effect_target_special">spécial</string>
+    <string name="effect_type_exact_mana_cost">coût en mana</string>
+    <string name="effect_type_minimal_mana_cost">coût en mana minimal</string>
+    <string name="effect_type_ingame_event">évènement de jeu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_add_deck">Nouveau deck</string>
+    <string name="lb_addCard">Ajouter une carte</string>
+    <string name="lb_save_deck">Sauver le deck</string>
+</resources>
